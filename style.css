@@ -150,6 +150,11 @@ header {
     margin: 10px 0 10px 0;
     font-weight: bold;
 }
+.slide_content > button:hover {
+    background-color: #fff;
+    color: #333;
+    border: none;
+}
 .slide_bar {
     position: absolute;
     bottom: 74px;
@@ -226,6 +231,10 @@ header {
     font-size: 15px;
     color: #444;
 }
+.home_about:hover {
+    text-decoration: underline;
+    color: #005295;
+}
 .home_wrap > ul > li:nth-child(3) > div {
     font-size: 14px;
 }
@@ -257,6 +266,11 @@ header {
     color: #444;
     border: 1px solid #999;
     border-radius: 20px;
+}
+.home_more > button:hover {
+    background-color: #333;
+    color: #fff;
+    border: none;
 }
 .story {
     width: 400px;
@@ -301,10 +315,16 @@ header {
     width: 176.391px;
     height: 176.391px;
     margin-bottom: 7.188px;
+    overflow: hidden;
 }
 .list_wrap > li > img {
     width: 176px;
     height: 176px;
+    transition: all 0.5s;
+}
+.list_wrap > li > img:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease-out;
 }
 .txt {
     width: 360px;
